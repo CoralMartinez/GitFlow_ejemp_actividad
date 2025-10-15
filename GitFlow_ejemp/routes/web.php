@@ -9,3 +9,4 @@ Route::get('/', function () {
 
 Route::get('/potencia/{base}/{exponente}', [App\Http\Controllers\CalculadoraController::class, 'potencia']);
 
+Route::get('/division/{num1}/{num2}', [CalculadoraController::class, 'division']);
