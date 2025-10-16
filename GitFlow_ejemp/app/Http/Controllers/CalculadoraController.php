@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class CalculadoraController extends Controller
 {
    public function suma($num1, $num2){
-        return 'la sumaaaass de '.$num1.' y '.$num2.' es: '.($num1 + $num2);
+        return 'La sumaaaass de '.$num1.' y '.$num2.' es: '.($num1 + $num2);
    }
 
     public function potencia($base, $exponente)
