@@ -15,4 +15,9 @@ class CalculadoraController extends Controller
         $resultado = pow($base, $exponente);
         return "La potencia de {$base} elevado a {$exponente} es: {$resultado}";
     }
+
+    public function resta($num1, $num2){
+        return 'la resta de '.$num1.' y '.$num2.' es: '.($num1 - $num2);
+    }
+
 }
