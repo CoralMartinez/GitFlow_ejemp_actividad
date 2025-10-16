@@ -22,7 +22,7 @@ class CalculadoraController extends Controller
     }
 
     public function multiplicacion($num1, $num2){
-        return 'la multiplicacion de '.$num1.' y '.$num2.' es: '.($num1 * $num2);
+        return 'la multiplicacionnnn de '.$num1.' y '.$num2.' es: '.($num1 * $num2);
     }
 
 }
