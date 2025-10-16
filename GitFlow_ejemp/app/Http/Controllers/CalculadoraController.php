@@ -21,6 +21,10 @@ class CalculadoraController extends Controller
         return 'la resta de '.$num1.' y '.$num2.' es: '.($num1 - $num2);
     }
 
+    public function multiplicacion($num1, $num2){
+        return 'la multiplicacion de '.$num1.' y '.$num2.' es: '.($num1 * $num2);
+    }
+
 }
 
 
